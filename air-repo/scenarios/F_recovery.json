@@ -1,0 +1,411 @@
+{
+  "name": "F_recovery",
+  "description": "Recovery: SEVERE -> RECOVERY -> NORMAL without a premature all-clear.",
+  "simulated": true,
+  "cycles": [
+    {
+      "cycle_id": "F_recovery-c01",
+      "as_of": "2026-10-10T06:00:00Z",
+      "observations": [
+        {
+          "observation_id": "F_recovery-c01-ST-N1",
+          "station_id": "ST-N1",
+          "timestamp": "2026-10-10T05:58:00Z",
+          "aqi": 88,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c01-ST-N2",
+          "station_id": "ST-N2",
+          "timestamp": "2026-10-10T05:58:00Z",
+          "aqi": 84,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c01-ST-C1",
+          "station_id": "ST-C1",
+          "timestamp": "2026-10-10T05:58:00Z",
+          "aqi": 96,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c01-ST-E1",
+          "station_id": "ST-E1",
+          "timestamp": "2026-10-10T05:58:00Z",
+          "aqi": 90,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c01-ST-S1",
+          "station_id": "ST-S1",
+          "timestamp": "2026-10-10T05:58:00Z",
+          "aqi": 72,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c01-ST-S2",
+          "station_id": "ST-S2",
+          "timestamp": "2026-10-10T05:58:00Z",
+          "aqi": 75,
+          "source": "SIMULATED"
+        }
+      ]
+    },
+    {
+      "cycle_id": "F_recovery-c02",
+      "as_of": "2026-10-10T06:15:00Z",
+      "observations": [
+        {
+          "observation_id": "F_recovery-c02-ST-N1",
+          "station_id": "ST-N1",
+          "timestamp": "2026-10-10T06:13:00Z",
+          "aqi": 380,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c02-ST-N2",
+          "station_id": "ST-N2",
+          "timestamp": "2026-10-10T06:13:00Z",
+          "aqi": 410,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c02-ST-C1",
+          "station_id": "ST-C1",
+          "timestamp": "2026-10-10T06:13:00Z",
+          "aqi": 352,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c02-ST-E1",
+          "station_id": "ST-E1",
+          "timestamp": "2026-10-10T06:13:00Z",
+          "aqi": 340,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c02-ST-S1",
+          "station_id": "ST-S1",
+          "timestamp": "2026-10-10T06:13:00Z",
+          "aqi": 120,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c02-ST-S2",
+          "station_id": "ST-S2",
+          "timestamp": "2026-10-10T06:13:00Z",
+          "aqi": 110,
+          "source": "SIMULATED"
+        }
+      ]
+    },
+    {
+      "cycle_id": "F_recovery-c03",
+      "as_of": "2026-10-10T06:30:00Z",
+      "observations": [
+        {
+          "observation_id": "F_recovery-c03-ST-N1",
+          "station_id": "ST-N1",
+          "timestamp": "2026-10-10T06:28:00Z",
+          "aqi": 372,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c03-ST-N2",
+          "station_id": "ST-N2",
+          "timestamp": "2026-10-10T06:28:00Z",
+          "aqi": 404,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c03-ST-C1",
+          "station_id": "ST-C1",
+          "timestamp": "2026-10-10T06:28:00Z",
+          "aqi": 347,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c03-ST-E1",
+          "station_id": "ST-E1",
+          "timestamp": "2026-10-10T06:28:00Z",
+          "aqi": 338,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c03-ST-S1",
+          "station_id": "ST-S1",
+          "timestamp": "2026-10-10T06:28:00Z",
+          "aqi": 126,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c03-ST-S2",
+          "station_id": "ST-S2",
+          "timestamp": "2026-10-10T06:28:00Z",
+          "aqi": 114,
+          "source": "SIMULATED"
+        }
+      ]
+    },
+    {
+      "cycle_id": "F_recovery-c04",
+      "as_of": "2026-10-10T06:45:00Z",
+      "observations": [
+        {
+          "observation_id": "F_recovery-c04-ST-N1",
+          "station_id": "ST-N1",
+          "timestamp": "2026-10-10T06:43:00Z",
+          "aqi": 270,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c04-ST-N2",
+          "station_id": "ST-N2",
+          "timestamp": "2026-10-10T06:43:00Z",
+          "aqi": 285,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c04-ST-C1",
+          "station_id": "ST-C1",
+          "timestamp": "2026-10-10T06:43:00Z",
+          "aqi": 255,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c04-ST-E1",
+          "station_id": "ST-E1",
+          "timestamp": "2026-10-10T06:43:00Z",
+          "aqi": 220,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c04-ST-S1",
+          "station_id": "ST-S1",
+          "timestamp": "2026-10-10T06:43:00Z",
+          "aqi": 160,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c04-ST-S2",
+          "station_id": "ST-S2",
+          "timestamp": "2026-10-10T06:43:00Z",
+          "aqi": 150,
+          "source": "SIMULATED"
+        }
+      ]
+    },
+    {
+      "cycle_id": "F_recovery-c05",
+      "as_of": "2026-10-10T07:00:00Z",
+      "observations": [
+        {
+          "observation_id": "F_recovery-c05-ST-N1",
+          "station_id": "ST-N1",
+          "timestamp": "2026-10-10T06:58:00Z",
+          "aqi": 210,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c05-ST-N2",
+          "station_id": "ST-N2",
+          "timestamp": "2026-10-10T06:58:00Z",
+          "aqi": 222,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c05-ST-C1",
+          "station_id": "ST-C1",
+          "timestamp": "2026-10-10T06:58:00Z",
+          "aqi": 198,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c05-ST-E1",
+          "station_id": "ST-E1",
+          "timestamp": "2026-10-10T06:58:00Z",
+          "aqi": 170,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c05-ST-S1",
+          "station_id": "ST-S1",
+          "timestamp": "2026-10-10T06:58:00Z",
+          "aqi": 140,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c05-ST-S2",
+          "station_id": "ST-S2",
+          "timestamp": "2026-10-10T06:58:00Z",
+          "aqi": 130,
+          "source": "SIMULATED"
+        }
+      ]
+    },
+    {
+      "cycle_id": "F_recovery-c06",
+      "as_of": "2026-10-10T07:15:00Z",
+      "observations": [
+        {
+          "observation_id": "F_recovery-c06-ST-N1",
+          "station_id": "ST-N1",
+          "timestamp": "2026-10-10T07:13:00Z",
+          "aqi": 150,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c06-ST-N2",
+          "station_id": "ST-N2",
+          "timestamp": "2026-10-10T07:13:00Z",
+          "aqi": 160,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c06-ST-C1",
+          "station_id": "ST-C1",
+          "timestamp": "2026-10-10T07:13:00Z",
+          "aqi": 140,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c06-ST-E1",
+          "station_id": "ST-E1",
+          "timestamp": "2026-10-10T07:13:00Z",
+          "aqi": 130,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c06-ST-S1",
+          "station_id": "ST-S1",
+          "timestamp": "2026-10-10T07:13:00Z",
+          "aqi": 120,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c06-ST-S2",
+          "station_id": "ST-S2",
+          "timestamp": "2026-10-10T07:13:00Z",
+          "aqi": 115,
+          "source": "SIMULATED"
+        }
+      ]
+    },
+    {
+      "cycle_id": "F_recovery-c07",
+      "as_of": "2026-10-10T07:30:00Z",
+      "observations": [
+        {
+          "observation_id": "F_recovery-c07-ST-N1",
+          "station_id": "ST-N1",
+          "timestamp": "2026-10-10T07:28:00Z",
+          "aqi": 120,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c07-ST-N2",
+          "station_id": "ST-N2",
+          "timestamp": "2026-10-10T07:28:00Z",
+          "aqi": 125,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c07-ST-C1",
+          "station_id": "ST-C1",
+          "timestamp": "2026-10-10T07:28:00Z",
+          "aqi": 110,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c07-ST-E1",
+          "station_id": "ST-E1",
+          "timestamp": "2026-10-10T07:28:00Z",
+          "aqi": 105,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c07-ST-S1",
+          "station_id": "ST-S1",
+          "timestamp": "2026-10-10T07:28:00Z",
+          "aqi": 100,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c07-ST-S2",
+          "station_id": "ST-S2",
+          "timestamp": "2026-10-10T07:28:00Z",
+          "aqi": 98,
+          "source": "SIMULATED"
+        }
+      ]
+    },
+    {
+      "cycle_id": "F_recovery-c08",
+      "as_of": "2026-10-10T07:45:00Z",
+      "observations": [
+        {
+          "observation_id": "F_recovery-c08-ST-N1",
+          "station_id": "ST-N1",
+          "timestamp": "2026-10-10T07:43:00Z",
+          "aqi": 105,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c08-ST-N2",
+          "station_id": "ST-N2",
+          "timestamp": "2026-10-10T07:43:00Z",
+          "aqi": 110,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c08-ST-C1",
+          "station_id": "ST-C1",
+          "timestamp": "2026-10-10T07:43:00Z",
+          "aqi": 100,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c08-ST-E1",
+          "station_id": "ST-E1",
+          "timestamp": "2026-10-10T07:43:00Z",
+          "aqi": 95,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c08-ST-S1",
+          "station_id": "ST-S1",
+          "timestamp": "2026-10-10T07:43:00Z",
+          "aqi": 90,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "F_recovery-c08-ST-S2",
+          "station_id": "ST-S2",
+          "timestamp": "2026-10-10T07:43:00Z",
+          "aqi": 92,
+          "source": "SIMULATED"
+        }
+      ]
+    }
+  ],
+  "expected": {
+    "states": [
+      "NORMAL",
+      "SEVERE",
+      "SEVERE",
+      "SEVERE",
+      "RECOVERY",
+      "RECOVERY",
+      "RECOVERY",
+      "NORMAL"
+    ],
+    "alert_types": [
+      "SEVERE_ALERT"
+    ],
+    "codes": {
+      "5": [
+        "RECOVERY_NOT_ALL_CLEAR"
+      ]
+    }
+  }
+}
