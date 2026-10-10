@@ -1,0 +1,215 @@
+{
+  "name": "C_sudden_severe",
+  "description": "Sudden severe pollution: strong corroborated evidence moves NORMAL -> SEVERE directly.",
+  "simulated": true,
+  "cycles": [
+    {
+      "cycle_id": "C_sudden_severe-c01",
+      "as_of": "2026-10-10T06:00:00Z",
+      "observations": [
+        {
+          "observation_id": "C_sudden_severe-c01-ST-N1",
+          "station_id": "ST-N1",
+          "timestamp": "2026-10-10T05:58:00Z",
+          "aqi": 88,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "C_sudden_severe-c01-ST-N2",
+          "station_id": "ST-N2",
+          "timestamp": "2026-10-10T05:58:00Z",
+          "aqi": 84,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "C_sudden_severe-c01-ST-C1",
+          "station_id": "ST-C1",
+          "timestamp": "2026-10-10T05:58:00Z",
+          "aqi": 96,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "C_sudden_severe-c01-ST-E1",
+          "station_id": "ST-E1",
+          "timestamp": "2026-10-10T05:58:00Z",
+          "aqi": 90,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "C_sudden_severe-c01-ST-S1",
+          "station_id": "ST-S1",
+          "timestamp": "2026-10-10T05:58:00Z",
+          "aqi": 72,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "C_sudden_severe-c01-ST-S2",
+          "station_id": "ST-S2",
+          "timestamp": "2026-10-10T05:58:00Z",
+          "aqi": 75,
+          "source": "SIMULATED"
+        }
+      ]
+    },
+    {
+      "cycle_id": "C_sudden_severe-c02",
+      "as_of": "2026-10-10T06:15:00Z",
+      "observations": [
+        {
+          "observation_id": "C_sudden_severe-c02-ST-N1",
+          "station_id": "ST-N1",
+          "timestamp": "2026-10-10T06:13:00Z",
+          "aqi": 380,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "C_sudden_severe-c02-ST-N2",
+          "station_id": "ST-N2",
+          "timestamp": "2026-10-10T06:13:00Z",
+          "aqi": 410,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "C_sudden_severe-c02-ST-C1",
+          "station_id": "ST-C1",
+          "timestamp": "2026-10-10T06:13:00Z",
+          "aqi": 352,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "C_sudden_severe-c02-ST-E1",
+          "station_id": "ST-E1",
+          "timestamp": "2026-10-10T06:13:00Z",
+          "aqi": 340,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "C_sudden_severe-c02-ST-S1",
+          "station_id": "ST-S1",
+          "timestamp": "2026-10-10T06:13:00Z",
+          "aqi": 120,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "C_sudden_severe-c02-ST-S2",
+          "station_id": "ST-S2",
+          "timestamp": "2026-10-10T06:13:00Z",
+          "aqi": 110,
+          "source": "SIMULATED"
+        }
+      ]
+    },
+    {
+      "cycle_id": "C_sudden_severe-c03",
+      "as_of": "2026-10-10T06:30:00Z",
+      "observations": [
+        {
+          "observation_id": "C_sudden_severe-c03-ST-N1",
+          "station_id": "ST-N1",
+          "timestamp": "2026-10-10T06:28:00Z",
+          "aqi": 372,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "C_sudden_severe-c03-ST-N2",
+          "station_id": "ST-N2",
+          "timestamp": "2026-10-10T06:28:00Z",
+          "aqi": 404,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "C_sudden_severe-c03-ST-C1",
+          "station_id": "ST-C1",
+          "timestamp": "2026-10-10T06:28:00Z",
+          "aqi": 347,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "C_sudden_severe-c03-ST-E1",
+          "station_id": "ST-E1",
+          "timestamp": "2026-10-10T06:28:00Z",
+          "aqi": 338,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "C_sudden_severe-c03-ST-S1",
+          "station_id": "ST-S1",
+          "timestamp": "2026-10-10T06:28:00Z",
+          "aqi": 126,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "C_sudden_severe-c03-ST-S2",
+          "station_id": "ST-S2",
+          "timestamp": "2026-10-10T06:28:00Z",
+          "aqi": 114,
+          "source": "SIMULATED"
+        }
+      ]
+    },
+    {
+      "cycle_id": "C_sudden_severe-c04",
+      "as_of": "2026-10-10T06:45:00Z",
+      "observations": [
+        {
+          "observation_id": "C_sudden_severe-c04-ST-N1",
+          "station_id": "ST-N1",
+          "timestamp": "2026-10-10T06:43:00Z",
+          "aqi": 361,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "C_sudden_severe-c04-ST-N2",
+          "station_id": "ST-N2",
+          "timestamp": "2026-10-10T06:43:00Z",
+          "aqi": 395,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "C_sudden_severe-c04-ST-C1",
+          "station_id": "ST-C1",
+          "timestamp": "2026-10-10T06:43:00Z",
+          "aqi": 340,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "C_sudden_severe-c04-ST-E1",
+          "station_id": "ST-E1",
+          "timestamp": "2026-10-10T06:43:00Z",
+          "aqi": 331,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "C_sudden_severe-c04-ST-S1",
+          "station_id": "ST-S1",
+          "timestamp": "2026-10-10T06:43:00Z",
+          "aqi": 131,
+          "source": "SIMULATED"
+        },
+        {
+          "observation_id": "C_sudden_severe-c04-ST-S2",
+          "station_id": "ST-S2",
+          "timestamp": "2026-10-10T06:43:00Z",
+          "aqi": 118,
+          "source": "SIMULATED"
+        }
+      ]
+    }
+  ],
+  "expected": {
+    "states": [
+      "NORMAL",
+      "SEVERE",
+      "SEVERE",
+      "SEVERE"
+    ],
+    "alert_types": [
+      "SEVERE_ALERT"
+    ],
+    "codes": {
+      "2": [
+        "STRONG_SEVERE_EVIDENCE"
+      ]
+    }
+  }
+}
