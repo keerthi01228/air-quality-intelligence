@@ -1,5 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head><title>AIR</title></head>
-<body>AIR frontend setup</body>
-</html>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIR - Air-quality Intelligence and Early-warning</title>
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<header><h1>AIR <small>Air-quality Intelligence and Early-warning</small></h1>
+<div class="banner">PROTOTYPE - SIMULATED DEMO DATA. Thresholds are prototype rules, not official CPCB/NDMA values. Delivery channels are mocked. This is not live monitoring and sends no real alerts.</div></header>
+<main>
+<section class="bar"><label>API base URL <input id="api" placeholder="https://xxxx.execute-api.ap-south-1.amazonaws.com"></label>
+<button id="load">Load dashboard</button><button id="more-btn" class="alt">Load history &amp; events</button>
+<p class="muted">Read-only. Nothing loads until you click; each click calls the public GET endpoints (/status, /alerts, /scenarios).</p></section>
+<div class="grid">
+<section><h2>Current risk state</h2><div id="risk" class="muted">Not loaded.</div></section>
+<section><h2>Affected area</h2><div id="area" class="muted">Not loaded.</div></section>
+</div>
+<section><h2>Station readings</h2><div id="readings" class="muted">Not loaded.</div></section>
+<section><h2>Alerts</h2><div id="alerts" class="muted">Not loaded.</div></section>
+<section><h2>Alert detail, safety guidance &amp; audit trace</h2><div id="trace" class="muted">Select "Trace" on an alert.</div></section>
+<section><h2>Simulated scenarios</h2><div id="scen" class="muted">Not loaded.</div>
+<p class="muted">Scenarios are replayed by the operator outside this page; this page only lists them.</p></section>
+<section><h2>Decision history &amp; events</h2><div id="more" class="muted">Not loaded.</div></section>
+</main>
+<script src="config.js"></script><script src="app.js"></script></body></html>
