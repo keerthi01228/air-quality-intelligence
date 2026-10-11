@@ -108,5 +108,7 @@
         ["Change", d => s(d.previous_state) + " -> " + s(d.new_state)], ["Reason", d => s(d.reason)]], hist) : h("p", { class: "muted" }, "No decisions yet."),
         h("h3", {}, "Events"), ev.length ? table([["Event", e => e.event_id], ["Details", e => raw(e, "JSON")]], ev) : h("p", { class: "muted" }, "No events yet."));
     } catch (e) { fail(["more"], "/history or /events", e); }
-  };
+    };
+
+  $("load").click();
 })();
