@@ -1,10 +1,14 @@
 version: 1
-frontend:
-  phases:
-    build:
-      commands:
-        - echo "Static site - no build step"
-  artifacts:
-    baseDirectory: air-frontend
-    files:
-      - '**/*'
+applications:
+  - appRoot: air-frontend
+    frontend:
+      phases:
+        build:
+          commands:
+            - echo "No build required"
+      artifacts:
+        baseDirectory: .
+        files:
+          - '**/*'
+      cache:
+        paths: []
